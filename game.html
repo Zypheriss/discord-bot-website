@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird - Discord Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page game-page">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Home</a>
+            
+            <div class="page-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="header-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                <h1>Flappy Bird Game</h1>
+            </div>
+
+            <div class="game-container">
+                <canvas id="gameCanvas" width="480" height="640"></canvas>
+                <div class="game-controls">
+                    <button id="startGame" class="btn btn-primary">Start Game</button>
+                    <p class="game-score">Score: <span id="score">0</span></p>
+                    <p class="high-score">High Score: <span id="highScore">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
